@@ -13,8 +13,14 @@ Updated: 2024-07-22 14:25:14
 
 .commande {
 background-color: #DC9F96;
+font-size: 16px;
 }
 
 .commande a.menu-link {
     color: white ! Important;
+    
+}
+
+.formulaire {
+color: #FFFFFF;
 }
