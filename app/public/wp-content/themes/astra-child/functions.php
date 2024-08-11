@@ -22,3 +22,24 @@ endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+// menu specifique admin connecté
+
+// function my_wp_nav_menu_args( $args = '' ) {
+//     if( is_user_logged_in() ) { 
+//         $args['menu'] = 'logged-in';
+//     } else { 
+//         $args['menu'] = 'header';
+//     } 
+//         return $args;
+// }
+// add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' );
+
+add_filter( 'wp_nav_menu_items','add_admin_link', 10, 2 );
+
+function add_admin_link( $items, $args ) {
+    if (is_user_logged_in() && $args->theme_location == 'primary') {
+        $items .= '<li class="admin"><a href="'. get_admin_url() .'">Admin</a></li>';
+    }
+    return $items;
+}

@@ -11,6 +11,7 @@ Updated: 2024-07-22 14:25:14
 
 */
 
+/* header */
 .commande {
 background-color: #DC9F96;
 font-size: 16px;
@@ -21,6 +22,60 @@ font-size: 16px;
     
 }
 
-.formulaire {
-color: #FFFFFF;
+/* Formulaire de contact */
+.wpforms-submit-container {
+    display: flex;
+    justify-content: center;
+}
+button#wpforms-submit-409 {
+    font-family: 'Syne';
+    font-size: 15px;
+    padding: 9px 50px;
+}
+
+/* Bouton commande */
+.boutoncommande {
+    display: flex;
+    justify-content: center;
+
+}
+/* Nombre article commande */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* ...pour Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"] {
+
+    border-radius: unset;
+    width: 42px;
+}
+
+/* formulaire de commande */
+label {
+    color: white;
+}
+
+/* ...champ formulaire de contact */
+input.wpcf7-form-control.wpcf7-text.champformulaire {
+    height: 65px;
+    margin-top: 5px;
+    border-radius: 6px;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    height: 65px;
+    margin-top: 5px; 
+    border-radius: 6px;
+}
+input.wpcf7-form-control.wpcf7-text {
+    height: 65px;
+    margin-top: 5px; 
+    border-radius: 6px;
 }
