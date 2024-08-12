@@ -1453,3 +1453,157 @@
 [11-Aug-2024 13:13:58 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
 [11-Aug-2024 13:15:54 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
 [11-Aug-2024 13:15:55 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 19:32:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_nav_menu_item() in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php:40
+Stack trace:
+#0 C:\Users\nouai\Local Sites\planty\app\public\wp-settings.php(668): include()
+#1 C:\Users\nouai\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\nouai\\...')
+#2 C:\Users\nouai\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\nouai\\...')
+#3 C:\Users\nouai\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\nouai\\...')
+#4 C:\Users\nouai\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\nouai\\...')
+#5 {main}
+  thrown in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 40
+[11-Aug-2024 19:32:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_nav_menu_item() in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php:40
+Stack trace:
+#0 C:\Users\nouai\Local Sites\planty\app\public\wp-settings.php(668): include()
+#1 C:\Users\nouai\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\nouai\\...')
+#2 C:\Users\nouai\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\nouai\\...')
+#3 C:\Users\nouai\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\nouai\\...')
+#4 C:\Users\nouai\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\nouai\\...')
+#5 {main}
+  thrown in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 40
+[11-Aug-2024 19:32:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_nav_menu_item() in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php:40
+Stack trace:
+#0 C:\Users\nouai\Local Sites\planty\app\public\wp-settings.php(668): include()
+#1 C:\Users\nouai\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\nouai\\...')
+#2 C:\Users\nouai\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\nouai\\...')
+#3 C:\Users\nouai\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\nouai\\...')
+#4 C:\Users\nouai\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\nouai\\...')
+#5 {main}
+  thrown in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 40
+[11-Aug-2024 19:33:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_nav_menu_item() in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php:40
+Stack trace:
+#0 C:\Users\nouai\Local Sites\planty\app\public\wp-settings.php(668): include()
+#1 C:\Users\nouai\Local Sites\planty\app\public\wp-config.php(103): require_once('C:\\Users\\nouai\\...')
+#2 C:\Users\nouai\Local Sites\planty\app\public\wp-load.php(50): require_once('C:\\Users\\nouai\\...')
+#3 C:\Users\nouai\Local Sites\planty\app\public\wp-blog-header.php(13): require_once('C:\\Users\\nouai\\...')
+#4 C:\Users\nouai\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\nouai\\...')
+#5 {main}
+  thrown in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 40
+[11-Aug-2024 19:37:59 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 40
+[11-Aug-2024 19:38:00 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 40
+[11-Aug-2024 19:38:21 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 40
+[11-Aug-2024 19:38:45 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 40
+[11-Aug-2024 19:38:46 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 40
+[11-Aug-2024 19:39:10 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 40
+[11-Aug-2024 19:39:18 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 40
+[11-Aug-2024 20:05:31 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "">Admin</a></li>" in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 56
+[11-Aug-2024 20:05:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\nouai\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[11-Aug-2024 20:05:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\nouai\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[11-Aug-2024 20:19:46 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:19:46 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:19:47 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:19:47 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:19:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:25:32 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:25:32 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:25:33 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:25:33 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:25:33 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:25:33 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:25:33 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:25:33 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:25:34 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:25:34 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:25:34 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:25:34 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:25:34 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:25:34 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:25:34 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:25:34 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:25:37 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:25:38 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:36:01 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:36:01 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:36:02 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:36:02 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:36:02 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:36:02 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:36:02 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:36:02 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:36:02 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:36:02 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:36:02 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:36:02 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:36:03 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:36:03 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:36:03 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:36:03 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:36:03 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:36:05 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:37:48 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:37:49 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:37:49 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:37:50 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:37:50 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:37:50 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:37:50 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:37:50 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:37:50 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:37:51 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:37:51 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:37:52 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:37:52 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:37:52 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:37:52 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:37:52 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:37:52 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:37:54 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:38:21 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:38:21 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:38:22 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:38:23 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 20:38:23 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 20:38:25 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 21:01:07 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 21:01:09 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 21:05:05 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 21:05:06 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 21:05:06 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 21:05:07 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 21:05:07 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 21:05:07 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 21:05:07 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 21:05:07 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[11-Aug-2024 21:05:16 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[11-Aug-2024 21:05:17 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[12-Aug-2024 12:17:19 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[12-Aug-2024 12:17:21 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[12-Aug-2024 12:19:05 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[12-Aug-2024 12:19:07 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[12-Aug-2024 12:20:29 UTC] [Image Optimizer]: error in ImageOptimization\Modules\Stats\Classes\Optimization_Stats::get_image_stats_chunk(): File is missing. Verify the upload
+[12-Aug-2024 12:20:30 UTC] [Image Optimizer]: error in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: Token Auth Guard Request Failed!: Invalid Token
+[12-Aug-2024 13:19:10 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 105
+[12-Aug-2024 13:21:11 UTC] PHP Parse error:  Unclosed '{' on line 105 in C:\Users\nouai\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 109
