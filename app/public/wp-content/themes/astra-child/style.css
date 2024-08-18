@@ -24,11 +24,16 @@ font-size: 16px;
     background-color: #C02E44;
 }
 .commande a.menu-link {
-    color: white ! Important;
+    color: white !Important;
     
 }
 
+a.menu-admin {
+    padding-right: 60px;
+}
+
 /* Formulaire de contact */
+
 .wpforms-submit-container {
     display: flex;
     justify-content: center;
@@ -40,12 +45,14 @@ button#wpforms-submit-409 {
 }
 
 /* Bouton commande */
+
 .boutoncommande {
     display: flex;
     justify-content: center;
 
 }
 /* Nombre article commande */
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -53,6 +60,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* ...pour Firefox */
+
 input[type=number] {
   -moz-appearance: textfield;
 }
@@ -64,11 +72,13 @@ input[type="number"] {
 }
 
 /* formulaire de commande */
+
 label {
     color: white;
 }
 
 /* ...champ formulaire de contact */
+
 input.wpcf7-form-control.wpcf7-text.champformulaire {
     height: 65px;
     margin-top: 5px;
