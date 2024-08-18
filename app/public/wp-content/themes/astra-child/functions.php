@@ -28,7 +28,7 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 // menu specifique admin connecté
 
 
-add_filter( 'wp_nav_menu_items', 'prefix_add_menu_item', 10, 2 );
+add_filter( 'wp_nav_menu_header_items', 'prefix_add_menu_item', 10, 2 );
 function prefix_add_menu_item ( $items, $args ) {
         
         if (is_user_logged_in()) {
