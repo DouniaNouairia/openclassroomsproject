@@ -28,14 +28,20 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 // menu specifique admin connecté
 
 
-add_filter( 'wp_nav_menu_header_items', 'prefix_add_menu_item', 10, 2 );
+add_filter( 'wp_nav_menu_header_items', 'prefix_add_menu_item', 10, 2 ); //Récupère les items du menu header
+
+// Ajoute un item du menu à une place précise
+
 function prefix_add_menu_item ( $items, $args ) {
-        
+       
+    // Condition= admin connecté
+
         if (is_user_logged_in()) {
             
-            $items_array = array();
+            $items_array = array(); //Création du tableau d'item
             
-            while ( false !== ( $item_pos = strpos ( $items, '<li', 10 ) ) ) {
+            while ( false !== ( $item_pos = strpos ( $items, '<li', 10 ) ) ) //Ajoute la position souhaitée de l'item
+            {
                 
                 $items_array[] = substr($items, 0, $item_pos);
                 
@@ -43,10 +49,11 @@ function prefix_add_menu_item ( $items, $args ) {
             }
             
             $items_array[] = $items;
-           
+
+            // insère le lien Admin à la 2ème place
             array_splice($items_array, 1, 0, '<li class="menu-item"><a class="menu-admin" href="'. get_site_url() .'/wp-admin/">Admin</a></li>');
            
-            $items = implode('', $items_array);
+            $items = implode('', $items_array); //renvoie le tableau en chaine de caractère
         }
        
        return $items;    
